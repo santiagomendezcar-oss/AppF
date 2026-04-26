@@ -6,7 +6,7 @@ import jdk.jfr.Enabled;
 import java.util.Date;
 
 @Entity
-@Table(name = "Partido")
+@Table(name = "partido")
 public class Partido {
 
     @Id
