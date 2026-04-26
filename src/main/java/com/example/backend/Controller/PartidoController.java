@@ -12,7 +12,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/partidos")
-@CrossOrigin(origins = "*")
+@CrossOrigin(originPatterns = "*")
 public class PartidoController {
 
     private final PartidoService partidoService;

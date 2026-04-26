@@ -10,7 +10,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/estadisticas")
-@CrossOrigin(origins = "*")
+@CrossOrigin(originPatterns = "*")
 public class EstadisticasJugadorController {
 
     private final EstadisticasJugadorService estadisticasService;

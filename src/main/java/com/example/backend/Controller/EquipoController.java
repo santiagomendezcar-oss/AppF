@@ -10,7 +10,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/equipos")
-@CrossOrigin(origins = "*")
+@CrossOrigin(originPatterns = "*")
 public class EquipoController {
 
     private final EquipoService equipoService;
